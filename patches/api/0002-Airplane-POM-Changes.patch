@@ -1,0 +1,34 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+From: Paul Sauve <paul@technove.co>
+Date: Mon, 7 Feb 2022 06:07:37 +0000
+Subject: [PATCH] Airplane POM Changes
+
+
+diff --git a/pom.xml b/pom.xml
+index 6fd6066b16d4dbf8695be16ec8b2d135d4d04901..329ba2f5828afecdfa1eb19518dd4eda2ca5d4ff 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -3,18 +3,18 @@
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+     <modelVersion>4.0.0</modelVersion>
+     <parent>
+-        <groupId>com.tuinity</groupId>
+-        <artifactId>tuinity-parent</artifactId>
++        <groupId>gg.airplane</groupId>
++        <artifactId>airplane-parent</artifactId>
+         <version>dev-SNAPSHOT</version>
+         <relativePath>../pom.xml</relativePath>
+     </parent>
+ 
+-    <artifactId>tuinity-api</artifactId>
++    <artifactId>airplane-api</artifactId>
+     <version>1.16.5-R0.1-SNAPSHOT</version>
+     <packaging>jar</packaging>
+ 
+-    <name>Tuinity-API</name>
+-    <url>https://github.com/Spottedleaf/Tuinity</url>
++    <name>Airplane-API</name>
++    <url>https://github.com/TECHNOVE/Airplane/</url>
+     <description>An enhanced plugin API for Minecraft servers.</description>
+ 
+     <properties>
